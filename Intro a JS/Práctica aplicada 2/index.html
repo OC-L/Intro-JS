@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./funciones1.js" type="text/javascript"></script> 
+    <link rel="stylesheet" href="./estilo1.css">
+    <title>DEV-F Calculadora</title>
+</head>
+
+<body>
+
+    <h1></h1>
+    <div class="calculadora">
+        <section class="pantallaSuperior">
+            <table>
+                <tr>
+                    <input type='text' id='numeros' class ='pantalla'>
+                    </td>
+                    <td>
+                    <input type='button' value = 'C' onclick="limpiarPantalla()" class="limpiar"/>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="pantallaInferior">
+            <div class="teclas">
+                <input type="button" value="7" class="boton" onClick="mostrar('7')"></input>
+                <input type="button" value="8" class="boton " onClick="mostrar('8')"></input>
+                <input type="button" value="9" class="boton" onClick="mostrar('9')"></input>
+                <input type="button" value="/" class="operador" onClick="mostrar('/')"></input>
+                <input type="button" value="4" class="boton" onClick="mostrar('4')"></input>
+                <input type="button" value="5" class="boton" onClick="mostrar('5')"></input>
+                <input input type="button" value="6" class="boton" onClick="mostrar('6')"></input>
+                <input type="button" value="-" class="operador" onClick="mostrar('-')"></input>
+                <input type="button" value="1" class="boton" onClick="mostrar('1')"></input>
+                <input type="button" value="2" class="boton" onClick="mostrar('2')"></input>
+                <input type="button" value="3" class="boton" onClick="mostrar('3')"></input>
+                <input type="button" value="*" class="operador" onClick="mostrar('*')"></input>
+                <input type="button" value="." class="boton" onClick="mostrar('.')"></input>
+                <input type="button" value="0" class="boton" onClick="mostrar('0')"></input>
+                <input type="button" value= "=" class="igual" onClick="resolver()"></input>
+                <input type="button" value="+" class="operador" onClick="mostrar('+')"></input>
+            </div> 
+        </section>
+    </div>
+
+</body>
