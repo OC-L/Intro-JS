@@ -1,0 +1,23 @@
+.text-black-50 {
+    color: rgba(150, 150, 150, 0.5)!important
+}
+
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: rgb(44, 162, 171)!important;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgb(56, 155, 109)!important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(215, 42, 172)!important;
+}
+
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: rgb(220, 97, 21)!important;
+}
