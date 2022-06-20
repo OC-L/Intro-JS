@@ -1,0 +1,13 @@
+.vinculo {
+    text-decoration: none;
+    color: black;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.filtro {
+    cursor: pointer;
+    list-style: none;
+}

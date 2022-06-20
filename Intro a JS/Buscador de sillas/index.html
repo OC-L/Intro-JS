@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de sillas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./estilos1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-white text-white fs-1">.</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="contenedor">
+            <div class="row row-cols-4" id="row1">
+                    <div class="col-3 h-25">
+                        <form class="d-flex" id="formulario">
+                            <div class="col-10">
+                                <input type="text" id="inputSearch" placeholder="Buscar" class="form-control w-100 h-auto mb-2 p-1">
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-outline-secondary h-auto mb-2 w-auto p-1 ms-1" type="submit" onclick=""><i class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                        <ul class="navegacion">
+                            <div class="col-12 mt-1">
+                                <li class="filtro" onclick="inicio()">Inicio</li>
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <li class="filtro" id="filtro1" onclick="Marca1()">Marca 1</li>
+                            </div>
+
+                            <div class="col-12 mt-1">
+                                <li class="filtro" id="filtro2" onclick="Marca2()">Marca 2</li>
+                            </div>
+
+                            <div class="col-12 mt-1">
+                                <li class="filtro" id="filtro3" onclick="Marca3()">Marca 3</li>
+                            </div>
+
+                            <div class="col-12 mt-1">
+                                <li class="filtro" id="filtro4" onclick="Marca4()">Marca 4</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="container col-9 d-flex flex-wrap" id="contenedor2">
+
+                    </div>
+                <!-- <div class="col-3">
+
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Wooden table</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>High black bench</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Dining table</p>
+                        <p>$999</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Albany table</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Emperor bed</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Utopia sofa</p>
+                        <p>$999</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Accent chair</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Sofa set</p>
+                        <p>$999</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="./Imágenes/silla.jpg" class="img-fluid image">
+                        <p>Modern bookshelf</p>
+                        <p>$999</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+    <script src="./datos.js"></script>
+</body>
+</html>
