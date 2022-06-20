@@ -1,0 +1,13 @@
+.contSuperior {
+    background-image: url(./Imágenes/banner.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.botonEliminar {
+    border: none;
+}
+
+.botonPublicar {
+    border: none;
+}
